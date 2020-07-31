@@ -1,0 +1,20 @@
+{
+  "collectionName": "storages",
+  "info": {
+    "name": "kv-storage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "key": {
+      "type": "string"
+    },
+    "value": {
+      "type": "json"
+    }
+  }
+}

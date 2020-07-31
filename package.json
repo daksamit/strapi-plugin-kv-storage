@@ -1,0 +1,28 @@
+{
+  "name": "strapi-plugin-kv-storage",
+  "version": "0.0.1",
+  "description": "This is the description of the plugin.",
+  "strapi": {
+    "name": "kv-storage",
+    "icon": "plug",
+    "description": "Description of kv-storage plugin."
+  },
+  "dependencies": {},
+  "author": {
+    "name": "Dominik Aksamit",
+    "email": "",
+    "url": ""
+  },
+  "maintainers": [
+    {
+      "name": "Dominik Aksamit",
+      "email": "",
+      "url": ""
+    }
+  ],
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

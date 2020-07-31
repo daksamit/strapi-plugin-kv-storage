@@ -1,0 +1,19 @@
+{
+  "routes": [{
+      "method": "GET",
+      "path": "/:key",
+      "handler": "kv-storage.get",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/:key",
+      "handler": "kv-storage.set",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
